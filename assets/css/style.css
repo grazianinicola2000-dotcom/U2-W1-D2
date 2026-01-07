@@ -410,6 +410,7 @@ footer a {
 #underlinedText {
   position: relative;
   display: inline-block;
+  z-index: 2;
 }
 
 #underline {
@@ -465,6 +466,21 @@ section h2 {
 #btn1 {
   right: -1.5%;
   bottom: 5.7%;
+}
+
+#btn1,
+#btn2 i {
+  color: #2e6abc;
+}
+
+#btn3 i {
+  color: #f56568;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  font-size: 2rem;
 }
 
 #btn2 {
