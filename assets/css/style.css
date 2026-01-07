@@ -388,6 +388,10 @@ footer a {
   }
 }
 
+#imgDesc {
+  color: #a1a0a1;
+}
+
 #lineHeight h1:first-of-type {
   margin: 0;
 }
@@ -418,7 +422,7 @@ footer a {
   bottom: -93%;
   left: -7%;
   width: 114%;
-  z-index: 1;
+  z-index: -1;
 }
 
 #underline path {
@@ -437,6 +441,15 @@ section h2 {
   position: absolute;
   top: -20px;
   height: 40px;
+  box-shadow: 5px 5px 4px 1px #5c5c5c;
+}
+
+section p {
+  margin-top: 30px;
+}
+
+section fieldset input {
+  margin-bottom: 30px;
 }
 
 .cards {
@@ -453,7 +466,7 @@ section h2 {
 
 .btns {
   position: absolute;
-  width: 12%;
+  width: 60px;
   height: 60px;
   bottom: 0;
   right: 0;
@@ -464,17 +477,23 @@ section h2 {
 }
 
 #btn1 {
-  right: -1.5%;
-  bottom: 5.7%;
+  right: -12px;
+  bottom: 165px;
 }
 
-#btn1,
+#btn1 i,
 #btn2 i {
   color: #2e6abc;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 #btn3 i {
   color: #f56568;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 #btn1,
@@ -484,11 +503,27 @@ section h2 {
 }
 
 #btn2 {
-  right: -1.5%;
-  bottom: 3.25%;
+  right: -12px;
+  bottom: 90px;
 }
 
 #btn3 {
-  right: -1.5%;
-  bottom: 0.6%;
+  right: -12px;
+  bottom: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  #btn1 {
+    right: -20px;
+    top: 15px;
+  }
+
+  #btn2 {
+    right: -20px;
+    top: 90px;
+  }
+
+  #btn3 {
+    right: -20px;
+  }
 }
