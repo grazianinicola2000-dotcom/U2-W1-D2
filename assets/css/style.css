@@ -419,9 +419,9 @@ footer a {
 
 #underline {
   position: absolute;
-  bottom: -93%;
-  left: -7%;
-  width: 114%;
+  bottom: -100%;
+  left: -5%;
+  width: 110%;
   z-index: -1;
 }
 
@@ -525,5 +525,19 @@ section fieldset input {
 
   #btn3 {
     right: -20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #btn1 {
+    right: -10px;
+  }
+
+  #btn2 {
+    right: -10px;
+  }
+
+  #btn3 {
+    right: -10px;
   }
 }
